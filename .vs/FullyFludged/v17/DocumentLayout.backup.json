@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\FullyFludged\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\helper\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\helper\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\controllers\\prodcrudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\controllers\\prodcrudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|c:\\users\\user\\source\\repos\\fullyfludged\\fullyfludged\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6155-BE94-4BEC-A9B8-CB5DF7715F7A}|FullyFludged\\FullyFludged.csproj|solutionrelative:fullyfludged\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\RegisterRequestDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FullyFludged\\DTOs\\RegisterRequestDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Models\\User.cs",
+              "RelativeToolTip": "FullyFludged\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:25:59.187Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\.gitignore",
+              "RelativeDocumentMoniker": "FullyFludged\\.gitignore",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\.gitignore",
+              "RelativeToolTip": "FullyFludged\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-08T09:25:34.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1238978888:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "FullyFludged\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:52:32.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Helper\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Helper\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Helper\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "FullyFludged\\Helper\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T10:09:17.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FullyFludged\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA3wBcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T10:34:46.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "FullyFludged\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAawE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T10:05:00.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "FullyFludged\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:20:37.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "FullyFludged\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T08:08:25.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Services\\AuthService.cs",
+              "RelativeToolTip": "FullyFludged\\Services\\AuthService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T10:07:11.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Program.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Program.cs",
+              "RelativeToolTip": "FullyFludged\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T22:20:43.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "FullyFludged\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:53:20.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FullyFludged\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FullyFludged\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T20:36:49.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\DTOs\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\DTOs\\RegisterRequestDto.cs",
+              "RelativeToolTip": "FullyFludged\\DTOs\\RegisterRequestDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:11:58.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProdCRUDController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Controllers\\ProdCRUDController.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Controllers\\ProdCRUDController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Controllers\\ProdCRUDController.cs",
+              "RelativeToolTip": "FullyFludged\\Controllers\\ProdCRUDController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:03:03.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\appsettings.json",
+              "RelativeDocumentMoniker": "FullyFludged\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\appsettings.json",
+              "RelativeToolTip": "FullyFludged\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T11:21:30.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FullyFludged\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:38:55.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FullyFludged\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FullyFludged\\FullyFludged\\Models\\Product.cs",
+              "RelativeToolTip": "FullyFludged\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T12:01:38.342Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
