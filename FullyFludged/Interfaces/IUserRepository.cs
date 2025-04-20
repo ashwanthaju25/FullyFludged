@@ -8,6 +8,8 @@ namespace FullyFludged.Interfaces
         Task<User> RegisterAsync(RegisterRequestDto requestDto);
         Task<bool> UserExistsAsync(string username);
         Task<User?> GetUserByUsernameAsync(string username);
-
+        // Add these for Refresh Token Support
+        Task<User?> GetUserByRefreshTokenAsync(string refreshToken);
+        Task UpdateUserAsync(User user);
     }
 }
