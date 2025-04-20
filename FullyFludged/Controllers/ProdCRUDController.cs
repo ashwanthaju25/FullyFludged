@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using FullyFludged.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using Serilog.Context;
 
 namespace FullyFludged.Controllers
 {
@@ -11,18 +12,22 @@ namespace FullyFludged.Controllers
     [ApiController]
     public class ProdCRUDController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context; 
+        private readonly ILogger<ProdCRUDController> _logger;
 
-        public ProdCRUDController(ApplicationDbContext context)
+        public ProdCRUDController(ILogger<ProdCRUDController> logger, ApplicationDbContext context)
         {
             _context = context;
+            _logger = logger;
         }
 
         //AddProduct
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(Product product)
         {
+            LogContext.PushProperty("Method", "FullyFludged.CreateProduct");
             _context.Products.Add(product);
+            _logger.LogInformation($"An error occurred in the GetPersonAgreementAccountInquiry method of the analyzer manage");
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }

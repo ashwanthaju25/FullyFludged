@@ -46,22 +46,48 @@ namespace FullyFludged.Repositories
         //Getting user details using username
         public async Task<User?> GetUserByUsernameAsync(string username)
         {
-                var userRaw = await _context.Users
-                .Where(u => u.Username == username)
-                .Select(u => new User
-                {
-                        Id = u.Id,
-                        Username = u.Username,
-                        Role = u.Role,
-                        PasswordHash = u.PasswordHash,
-                        PasswordSalt = u.PasswordSalt
-                })
-                .FirstOrDefaultAsync();
+            var userRaw = await _context.Users
+            .Where(u => u.Username == username)
+            .Select(u => new User
+            {
+                Id = u.Id,
+                Username = u.Username,
+                Role = u.Role,
+                PasswordHash = u.PasswordHash,
+                PasswordSalt = u.PasswordSalt
+            })
+            .FirstOrDefaultAsync();
 
             if (userRaw == null)
                 return null;
 
             return userRaw;
         }
+
+        //refresh token
+
+        public async Task<User?> GetUserByRefreshTokenAsync(string refreshToken)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
+        }
+
+        public async Task UpdateUserAsync(User user)
+        {
+            var existingUser = await _context.Users.FindAsync(user.Id);
+            if (existingUser == null)
+                throw new Exception("User not found");
+
+            existingUser.RefreshToken = user.RefreshToken;
+            existingUser.RefreshTokenExpiryTime = user.RefreshTokenExpiryTime;
+
+
+            // Mark only the required properties as modified
+            _context.Entry(existingUser).Property(x => x.RefreshToken).IsModified = true;
+            _context.Entry(existingUser).Property(x => x.RefreshTokenExpiryTime).IsModified = true;
+
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

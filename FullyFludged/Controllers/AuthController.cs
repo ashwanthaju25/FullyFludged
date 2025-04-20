@@ -11,11 +11,12 @@ namespace FullyFludged.Controllers
     {
         private readonly IAuthService _authService;
         private readonly IUserRepository _userRepository;
-
-        public AuthController(IAuthService authService, IUserRepository userRepository)
+        private readonly JwtTokenGenerator _jwtTokenGenerator;
+        public AuthController(IAuthService authService, IUserRepository userRepository, JwtTokenGenerator jwtTokenGenerator)
         {
             _authService = authService;
             _userRepository = userRepository;
+            _jwtTokenGenerator = jwtTokenGenerator;
         }
 
         [HttpPost("login")]
@@ -41,5 +42,44 @@ namespace FullyFludged.Controllers
                 return BadRequest(new { error = ex.Message });
             }
         }
+
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> Refresh([FromBody] TokenRefreshRequestDto request)
+        {
+            var user = await _userRepository.GetUserByRefreshTokenAsync(request.RefreshToken);
+
+            if (user == null || user.RefreshTokenExpiryTime <= DateTime.UtcNow)
+                return Unauthorized("Invalid or expired refresh token.");
+
+            // Rotation (generate new tokens)
+            string newJwt = _jwtTokenGenerator.GenerateToken(user.Username, user.Id, user.Role);
+            string newRefreshToken = _jwtTokenGenerator.GenerateRefreshToken();
+
+            user.RefreshToken = newRefreshToken;
+            user.RefreshTokenExpiryTime = DateTime.UtcNow.AddDays(7);
+            await _userRepository.UpdateUserAsync(user);
+
+            return Ok(new LoginResponseDto
+            {
+                Token = newJwt,
+                RefreshToken = newRefreshToken
+            });
+        }
+
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout([FromBody] string username)
+        {
+            var user = await _userRepository.GetUserByUsernameAsync(username);
+            if (user == null) return NotFound();
+
+            user.RefreshToken = null;
+            user.RefreshTokenExpiryTime = DateTime.MinValue;
+            await _userRepository.UpdateUserAsync(user);
+
+            return Ok(new { message = "Logged out successfully" });
+        }
+
+
     }
 }

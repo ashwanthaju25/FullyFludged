@@ -9,8 +9,13 @@ using Scalar.AspNetCore;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .Build();
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -31,6 +36,18 @@ builder.Services.AddCors(options =>
                           .AllowAnyHeader());
 });
 
+// Setup Serilog from config
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(configuration)
+    .CreateLogger();
+
+// Read config with Serilog settings from appsettings.json
+builder.Host.UseSerilog((context, services, configuration) =>
+{
+    configuration
+        .ReadFrom.Configuration(context.Configuration)
+        .ReadFrom.Services(services);
+});
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
